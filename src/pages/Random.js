@@ -22,13 +22,11 @@ const Random = () => {
         setMovie(popularMovies.results[Math.floor(Math.random() * 20)])
         setFirst(false)
     })
-
-    console.log("MOVIE",movie)
   return (
-    <div class = " bg-black flex items-center  justify-center">
+    <div class = " bg-black flex items-center  justify-center h-screen">
         <div>
             <div>
-                <div class = "w-[100%] flex justify-center">
+                <div class = "w-[100%] flex justify-center bg-black">
                     {first ?  <img class = "mt-20" width = {330} src ={image}></img> : <MovieCard movie = {movie}/>}
                 </div>
             </div>
