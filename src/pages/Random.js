@@ -34,7 +34,7 @@ const Random = () => {
             <div class = "text-white text-2xl flex items-center  bg-black justify-center mt-4">
                 <div>
                 Tired of choosing a movie to watch? Pick a Random Movie!
-                <div onClick={clickButton} class = "text-white bg-red-700 mb-20 cursor-pointer py-4  flex justify-center text-3xl px-40 rounded-lg hover:scale-[1.1]">
+                <div onClick={clickButton} class = "text-white bg-red-700 cursor-pointer py-4  flex justify-center text-3xl px-40 rounded-lg hover:scale-[1.1]">
                     Pick A Random Movie!
                 </div>
                 </div>
